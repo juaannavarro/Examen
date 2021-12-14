@@ -6,9 +6,9 @@ def juego_del_minion(s):
     
     for i in range (len(s)):
         if s[i] not in vocales:
-            puntuacionStuart=puntuacionStuart+len(s[i])
+            puntuacionStuart=puntuacionStuart+(len(s)-i)
         else:
-            puntuacionKevin=puntuacionKevin+len(s[i])
+            puntuacionKevin=puntuacionKevin+(len(s)-i)
     
     if puntuacionStuart>puntuacionKevin:
         print("Ha ganado Stuart  ", puntuacionStuart)
