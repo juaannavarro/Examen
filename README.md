@@ -42,6 +42,10 @@ if __name__ == '__main__':
 
 # 2 Torres Verticales
 El segundo de ellos es un juego que se juega entre dos jugadores que realizan movimientos por turnos hasta que uno de ellos no puede realizar ningún movimiento. El jugador que no puede hacer un movimiento pierde el juego y el otro jugador es declarado ganador.
+<img width="311" alt="Captura de pantalla 2021-12-14 a las 11 48 02" src="https://user-images.githubusercontent.com/91721668/145984144-1f093058-bdd0-4630-be8e-f2bef703e0e1.png">
+
+
+
 Para ello hemos creado el siguiente código:
 
 
