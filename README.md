@@ -11,6 +11,8 @@ El primero de ellos consiste en crear un juego donde Kevin y Stuart juegan uno e
 
 
 #Inicio
+
+
 def juego_del_minion(s):
     
     puntuacionStuart=0
