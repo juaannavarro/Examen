@@ -3,7 +3,7 @@ Mi dirección para el repositorio del examen es la siguiente: https://github.com
 
 El examen trata de 2 ejercicios:
 
--1.El primero de ellos consiste en crear un juego donde Kevin y Stuart juegan uno en contra del otro. El objetivo del juego será escribir una palabra y con esa palabra Stuart puntuará todas las palabras formadas a partir de esa que empiecen por consonante y Kevin lo hará con las que empiecen por vocal. El que tenga mayor puntuación ganará y para ellos he creado el siguiente código:
+-1. El primero de ellos consiste en crear un juego donde Kevin y Stuart juegan uno en contra del otro. El objetivo del juego será escribir una palabra y con esa palabra Stuart puntuará todas las palabras formadas a partir de esa que empiecen por consonante y Kevin lo hará con las que empiecen por vocal. El que tenga mayor puntuación ganará y para ellos he creado el siguiente código:
 
 
 
@@ -34,3 +34,10 @@ if __name__ == '__main__':
     
     s=input("Elija una palabra: ")
     juego_del_minion(s)
+
+-2. El segundo de ellos es un juego que se juega entre dos jugadores que realizan movimientos por turnos hasta que uno de ellos no puede realizar ningún movimiento. El jugador que no puede hacer un movimiento pierde el juego y el otro jugador es declarado ganador.
+Para ello hemos creado el siguiente código:
+
+
+
+
