@@ -5,15 +5,38 @@ import re
 import sys
 
 def verticalRooks(r1, r2):
-    comienza=0
+    comienza=2
     for torre1,torre2 in zip(r1, r2):
         distancia_entre_torres= abs(torre2-torre1)
-        ganador=''
+        ganador=" "
+        if comienza==2:
+            if distancia_entre_torres==1:
+                distancia_entre_torres==1
+                ganador=" Jugador 1 "
+                comienza=2
+            else:
+                ganador=" Jugador 2 "
+                comienza=1
+        else:
+            if distancia_entre_torres==1:
+                ganador=" Jugador 2 "
+                comienza=1
+            else:
+                ganador=" Jugador 1 "
+                comienza=2
+    if ganador==" Jugador 1 ":
+        return "player_1"
+    else:
+        return "player_2"
+    
         
 
 if __name__ == '__main__':
+ 
  fptr = open(os.environ['OUTPUT_PATH'], 'w')
+ 
  t = int(input().strip())
+ 
  for t_itr in range(t):
  n = int(input().strip())
  r1 = []
