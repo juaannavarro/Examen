@@ -5,3 +5,5 @@ def juego_del_minion(s):
     mayusculas=s.upper()
     
 if __name__ == '__main__':
+    s=input("Elija una palabra: ")
+    juego_del_minion(s)
