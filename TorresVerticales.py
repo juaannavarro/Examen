@@ -67,7 +67,13 @@ if __name__ == '__main__':
     fptr = open('prueba', 'w')
 
     t = int(input("Introduce numeros del 1 al 3: ").strip())
-
+    while True:
+        if t<1 and t>3:
+            print("Vuelva a intentarlo: ")
+            break
+        else:
+            print("Introduce otro numero: ")
+            break
     for t_itr in range(t):
         n = int(input().strip())
 
