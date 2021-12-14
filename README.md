@@ -42,6 +42,14 @@ if __name__ == '__main__':
 
 # 2 Torres Verticales
 El segundo de ellos es un juego que se juega entre dos jugadores que realizan movimientos por turnos hasta que uno de ellos no puede realizar ningún movimiento. El jugador que no puede hacer un movimiento pierde el juego y el otro jugador es declarado ganador.
+Las únicas piezas que se utilizan en el juego son las torres. Una torre en HackerChess se mueve
+solo verticalmente, lo que significa que nunca deja una columna a la que pertenece. Además,
+en un solo movimiento, una torre atraviesa cualquier número de casillas desocupadas.
+Tenga en cuenta que no hay capturas en HackerChess, dos torres no pueden ocupar la misma
+celda y una torre no puede saltar sobre otra torre. Cada jugador tiene exactamente una torre
+en cada una de las columnas del tablero.
+Dada la posición inicial de las torres y sabiendo que el segundo jugador hace el primer
+movimiento, decide quién ganará el juego si ambos jugadores juegan de manera óptima.
 <img width="311" alt="Captura de pantalla 2021-12-14 a las 11 48 02" src="https://user-images.githubusercontent.com/91721668/145984144-1f093058-bdd0-4630-be8e-f2bef703e0e1.png">
 
 
